@@ -3,16 +3,16 @@
 # Steps: pull changes from remote repository, stage all changes, commit changes with message 'Updated', push changes to remote repository on branch 'main'.
 
 # Pull the latest changes from the remote repository on branch 'main'.
-git pull origin main
+git pull
 
 # Stage all changes.
-git add .
+git stage .
 
 # Commit changes with message 'Updated'.
-git commit -m "Updated"
+git commit -m "Sychronized"
 
 # Push changes to the remote repository on branch 'main'.
-git push origin main
+git push 
 
 # Echo a message to the terminal indicating that the synchronization process is complete.
 echo "Synchronization complete"
